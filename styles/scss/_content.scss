@@ -49,7 +49,7 @@
     }
 
     &--stepTwo {
-      @include fluid(right, -197px, -177px);
+      @include fluid(right, -157px, -137px);
       @include fluid(top, 150px, 30px);
       @include fluid(width, 880px, 1109px);
       @include fluid(height, 980px, 1059px);
