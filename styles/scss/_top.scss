@@ -51,6 +51,37 @@
     }
   }
 
+  &__box {
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 250px;
+      height: 250px;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #FFF;
+      -webkit-filter: blur(100px);
+      filter: blur(100px);
+      z-index: -1;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 250px;
+      height: 250px;
+      bottom: 0;
+      left: 0;
+      background-color: #FFF;
+      -webkit-filter: blur(100px);
+      filter: blur(100px);
+      z-index: -1;
+    }
+  }
+
   &__img {
     @include fluid(width, 450px, 603px);
     @include fluid(height, 350px, 519px);
@@ -73,6 +104,7 @@
       width: unset;
     }
 
+    &__box,
     &__img {
       position: absolute;
       left: 0;
@@ -80,7 +112,7 @@
       z-index: 0;
       height: 100%;
       width: 100%;
-      opacity: .5;
+      opacity: .7;
     }
   }
 }
