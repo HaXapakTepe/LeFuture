@@ -1,0 +1,26 @@
+.link {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  @include fluid(padding-top, 10px, 12px);
+  @include fluid(padding-bottom, 10px, 12px);
+  @include fluid(padding-left, 15px, 25px);
+  @include fluid(padding-right, 15px, 25px);
+  @include fluid(font-size, 16px, 24px);
+  color: #F5F5F5;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 8px;
+  background-color: #CA354F;
+  border: 1px solid transparent;
+  transition: color .23s ease-in-out,
+    background-color .23s ease-in-out,
+    border-color .23s ease-in-out;
+
+  &:hover {
+    color: #CA354F;
+    background-color: #f5f5f5;
+    border-color: #CA354F;
+  }
+}
