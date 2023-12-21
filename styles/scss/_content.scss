@@ -63,10 +63,10 @@
     }
 
     &--stepFour {
-      @include fluid(right, -224px, -204px);
-      @include fluid(top, 45px, 35px);
-      @include fluid(width, 880px, 1012px);
-      @include fluid(height, 480px, 517px);
+      @include fluid(right, -214px, -194px);
+      @include fluid(top, 40px, 30px);
+      @include fluid(width, 880px, 992px);
+      @include fluid(height, 480px, 487px);
     }
   }
 
