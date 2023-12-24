@@ -27,6 +27,14 @@
   }
 }
 
+@media (max-width: 992px) {
+  .header {
+    &__bottom {
+      padding: 0;
+    }
+  }
+}
+
 @media (max-width: 576px) {
   .header {
     &__top {
@@ -45,10 +53,6 @@
         margin-left: auto;
         margin-right: 5px;
       }
-    }
-
-    &__bottom {
-      padding: 0;
     }
   }
 }
