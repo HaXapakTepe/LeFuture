@@ -3,13 +3,14 @@
     display: flex;
     align-items: center;
     @include fluid(gap, 20px, 32px);
+    font-family: 'Comfortaa';
   }
 
   &__item {
     &.accordion--active {
       .menu {
         &__link {
-          color: #CA354F;
+          color: #D1B4A3;
 
           &::after {
             width: 100%;
@@ -21,7 +22,7 @@
             transform: rotateX(-180deg);
 
             path {
-              fill: #CA354F;
+              fill: #D1B4A3;
             }
           }
         }
@@ -34,7 +35,7 @@
     display: flex;
     align-items: center;
     @include fluid(gap, 4px, 8px);
-    color: #0D0D0D;
+    color: #373737;
     border-bottom: 2px solid transparent;
     transition: color .23s ease-in-out;
 
@@ -44,7 +45,7 @@
       bottom: 0;
       left: 50%;
       transform: translateX(-50%);
-      background-color: #CA354F;
+      background-color: #D1B4A3;
       width: 0;
       height: 2px;
       border-radius: 25px;
@@ -52,7 +53,7 @@
     }
 
     &:hover {
-      color: #CA354F;
+      color: #D1B4A3;
 
       &::after {
         width: 100%;
@@ -61,7 +62,7 @@
       .menu__icon {
         svg {
           path {
-            fill: #CA354F;
+            fill: #D1B4A3;
           }
         }
       }
@@ -70,6 +71,7 @@
 
   &__icon {
     svg {
+      margin-top: -2px;
       transition: transform .23s ease-in-out;
 
       path {
@@ -79,7 +81,7 @@
   }
 
   &__dropdown {
-    background-color: #EFEFEF;
+    background-color: #FCFDFF;
     border-radius: 25px;
     padding: 10px;
 
@@ -88,12 +90,12 @@
     }
 
     &-link {
-      color: #0D0D0D;
+      color: #373737;
       border-bottom: 2px solid transparent;
       transition: color .23s ease-in-out;
 
       &:hover {
-        color: #CA354F;
+        color: #D1B4A3;
       }
     }
   }
@@ -139,13 +141,13 @@
         &--active {
           .menu {
             &__link {
-              color: #0D0D0D;
+              color: #373737;
             }
 
             &__icon {
               svg {
                 path {
-                  fill: #0D0D0D;
+                  fill: #373737;
                 }
               }
             }
@@ -169,12 +171,12 @@
       }
 
       &:hover {
-        color: #0D0D0D;
+        color: #373737;
 
         .menu__icon {
           svg {
             path {
-              fill: #0D0D0D;
+              fill: #373737;
             }
           }
         }

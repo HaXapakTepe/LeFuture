@@ -17,37 +17,34 @@
 
   &__inner {
     position: relative;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 6px;
+    @include fluid(padding-top, 30px, 64px);
+    @include fluid(padding-bottom, 35px, 74px);
     z-index: 1;
   }
 
   &__item {
     @include fluid(padding-top, 35px, 67px);
-    @include fluid(width, 400px, 708px);
+    @include fluid(max-width, 545px, 785px);
 
     &-title {
-      color: #0D0D0D;
-      font-variant-numeric: lining-nums proportional-nums;
+      color: #373737;
+      font-family: 'Montserrat Alternates';
       @include fluid(font-size, 30px, 51px);
-      font-weight: 800;
+      font-weight: 700;
       line-height: 1.3;
       letter-spacing: 0.51px;
       @include fluid(margin-bottom, 10px, 27px);
-      text-wrap: balance;
 
       span {
-        color: #CA354F;
+        color: #D1B4A3;
       }
     }
 
     &-text {
-      color: #0D0D0D;
+      color: #373737;
       @include fluid(font-size, 14px, 16px);
       line-height: 2.1;
       @include fluid(margin-bottom, 25px, 67px);
-      text-wrap: balance;
     }
   }
 

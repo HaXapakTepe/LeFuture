@@ -51,3 +51,57 @@
     url("../../assets/fonts/Rhythm-and-Jazz-Decor.woff2") format("woff2");
   font-display: swap;
 }
+
+@font-face {
+  font-family: "Pinyon Script";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../../assets/fonts/PinyonScript-Regular.woff") format("woff"),
+    url("../../assets/fonts/PinyonScript-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat Alternates";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../../assets/fonts/MontserratAlternates-Light.woff") format("woff"),
+    url("../../assets/fonts/MontserratAlternates-Light.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat Alternates";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../../assets/fonts/MontserratAlternates-Bold.woff") format("woff"),
+    url("../../assets/fonts/MontserratAlternates-Bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../../assets/fonts/Comfortaa-Regular.woff") format("woff"),
+    url("../../assets/fonts/Comfortaa-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../../assets/fonts/Comfortaa-Medium.woff") format("woff"),
+    url("../../assets/fonts/Comfortaa-Medium.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../../assets/fonts/Comfortaa-SemiBold.woff") format("woff"),
+    url("../../assets/fonts/Comfortaa-SemiBold.woff2") format("woff2");
+  font-display: swap;
+}

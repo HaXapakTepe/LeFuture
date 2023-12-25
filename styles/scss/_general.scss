@@ -43,10 +43,10 @@ body {
 
 body {
   background-color: #fdfdfd;
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-weight: 400;
-  @include fluid(font-size, 16px, 18px);
-  color: #000;
+  @include fluid(font-size, 14px, 16px);
+  color: #373737;
   line-height: 160%;
   letter-spacing: 0.18px;
 
@@ -76,7 +76,7 @@ body {
 
 .title {
   @include fluid(font-size, 24px, 36px);
-  color: #000;
+  color: #373737;
   font-weight: 600;
   line-height: 1.8;
 
@@ -97,7 +97,7 @@ body {
       left: -2px;
       width: 101%;
       @include fluid(height, 15px, 23px);
-      background-color: #A8C8FF;
+      background-color: #D1B4A3;
       z-index: -1;
     }
   }

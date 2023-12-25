@@ -2,7 +2,7 @@
   &__top {
     @include fluid(padding-top, 30px, 52px);
     @include fluid(padding-bottom, 35px, 57px);
-    background-color: #A8C8FF;
+    background-color: #FCFDFF;
     box-shadow: 0px 0px 10.6px 0px rgba(0, 0, 0, 0.07);
 
     &-inner {
@@ -17,7 +17,7 @@
     @include fluid(padding-top, 15px, 25px);
     @include fluid(padding-bottom, 15px, 25px);
     border-radius: 8px;
-    background: #f8f8f8;
+    background: #FCFDFF;
 
     &-inner {
       display: flex;
