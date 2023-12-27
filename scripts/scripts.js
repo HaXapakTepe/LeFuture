@@ -35,6 +35,20 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   })
 
+  const contentFormIconEl = document.querySelectorAll('.elem__form-icon')
+
+  contentFormIconEl?.forEach((elem) => {
+    elem.addEventListener('click', function () {
+      console.log(1)
+      const contentFormInputEl = elem?.previousElementSibling
+      if (contentFormInputEl.type === 'password') {
+        contentFormInputEl.type = 'text'
+      } else {
+        contentFormInputEl.type = 'password'
+      }
+    })
+  })
+
   var points = [
     [
       '<div class="map-baloon"><p>119311, г. Москва, Тц Универ Сити, площадь Джавахарлала Неру, 1</p></div>',

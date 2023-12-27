@@ -13,7 +13,7 @@
   line-height: normal;
   border-radius: 8px;
   background-color: #D1B4A3;
-  border: 1px solid transparent;
+  border: 1px solid #D1B4A3;
   transition: color .23s ease-in-out,
     background-color .23s ease-in-out,
     border-color .23s ease-in-out;
@@ -23,11 +23,17 @@
     background-color: rgba(167, 158, 151, 0.80);
     -webkit-backdrop-filter: blur(7.5px);
     backdrop-filter: blur(7.5px);
+
+    &:hover {
+      color: #fff;
+      background-color: #D1B4A3;
+      border-color: #D1B4A3;
+    }
   }
 
   &:hover {
-    color: #fff;
-    background-color: #D1B4A3;
-    border-color: #D1B4A3;
+    background-color: #fff;
+    color: #D1B4A3;
   }
+
 }
