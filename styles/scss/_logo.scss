@@ -1,21 +1,10 @@
 .logo {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: #373737;
-  font-family: 'Rhythm and Jazz Decor';
-  font-size: 32px;
-  @include fluid(font-size, 28px, 32px);
-  font-weight: 400;
-  line-height: 1;
-  letter-spacing: 3.2px;
-
-  &--white {
-    color: #fff;
-  }
-
-  &--alt {
-    font-family: 'Pinyon Script';
-    @include fluid(font-size, 28px, 38px);
+  &__img {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    -o-object-fit: contain;
+    object-fit: contain;
+    @include fluid(height, 38px, 68px);
   }
 }
